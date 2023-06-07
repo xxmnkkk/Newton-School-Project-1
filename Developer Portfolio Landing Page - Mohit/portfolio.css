@@ -1,0 +1,134 @@
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Hero Section */
+
+.hero{
+    position: relative;
+    margin-bottom: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.hero img{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.hero .text h2{
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    font-size: larger;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.hero .text span{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.hero .text h1{
+    text-transform: uppercase;
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+/* Black Box Section */
+
+.blackbox{
+    height: 300px;
+    width: auto;
+    background-color: #000;
+    margin: -85px 0 0 0;
+    padding-top: 100px;
+}
+
+.blackbox h3{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.blackbox span{
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Container Section */
+
+.container{
+    display: grid;
+    grid-template-columns: repeat( auto-fill, minmax(340px, 1fr) );
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+
+}
+
+.container .card{
+    max-width: 340px;
+    height: 400px;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    margin-bottom: 40px;
+}
+
+/* Bottom Section */
+
+.bottom .contactme div{
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: flex-start;
+}
+
+.bottom .aboutme div{
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: flex-start;
+}
+
+.bottom .contactme{
+    background-color: rgb(112, 196, 217);
+}
+
+.bottom .contactme .heading h2{
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bottom .contactme .content p{
+    padding-left: 30px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.bottom .aboutme{
+    background-color: rgb(189, 228, 237);
+}
+
+.bottom .aboutme .heading h2{
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.bottom .aboutme .content p{
+    padding-left: 30px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+
+
